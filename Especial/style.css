@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(255, 72, 52);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 128, 128);
+}
+form > span{
+    margin: 3px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+#result{
+    padding: 5px;
+    border: 2px solid red;
+    margin: 5px;
+    font-weight: bold;
+    background-color: white;
+}
