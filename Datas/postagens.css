@@ -1,0 +1,63 @@
+.creationbox{
+    display: flex;
+    justify-content: center;
+}
+#creationform{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    border: 2px solid red;
+    background-color: rgb(255, 128, 128);
+}
+#creationform > .section{
+    width: 100%;
+}
+#creationform > textarea{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+#creationform > button{
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 35px;
+    border: 2px;
+}
+#postagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+#postagens > #dataEspecial{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 10px;
+    background-color: rgb(255, 128, 128);
+    border: 2px solid red;
+    margin: 5px 0;
+}
+#postagens > #dataEspecial > #header > span{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+#postagens > #dataEspecial > #header{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.322);
+    margin-bottom: 5px;
+}
+#postagens > #dataEspecial > #desc{
+    background-color: white;
+    padding: 0 3px;
+}
+#postagens > #dataEspecial > #ass{
+    font-weight: bold;
+}
+body{
+    background-color: brown;
+}

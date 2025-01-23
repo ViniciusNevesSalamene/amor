@@ -24,6 +24,9 @@
 #tempo{
     font-size: 24px;
 }
+button{
+    margin-bottom: 10px;
+}
 body{
     background-color: brown;
 }
